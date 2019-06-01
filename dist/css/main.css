@@ -1,0 +1,16 @@
+.upload-box {
+  position: relative;
+  margin: 20px; }
+  .upload-box .upload-label {
+    display: inline-block;
+    background: #e6ee9c;
+    border: 2px dashed #b0bec5;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer; }
+    .upload-box .upload-label:hover {
+      background: #bdbdbd;
+      border: 2px solid #bdbdbd; }
+  .upload-box .upload-input {
+    display: none; }

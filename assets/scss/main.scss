@@ -1,0 +1,20 @@
+.upload-box {
+    position: relative;
+    margin: 20px;
+    .upload-label {
+        display: inline-block;
+        background: #e6ee9c;
+        border: 2px dashed #b0bec5;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+            background: #bdbdbd;
+            border: 2px solid #bdbdbd;
+        }
+    }
+    .upload-input {
+        display: none;
+    }
+}
